@@ -1,0 +1,98 @@
+* {
+    font-family: 'Nunito Sans';
+}
+
+header {
+    background-color: #D3CBC5;
+}
+
+.nav-link {
+    color: #1B1A1A !important;
+}
+
+.nav-link.active {
+    border-bottom: 1px solid #1B1A1A;
+}
+
+.btn.btn-dark {
+    background-color: black;
+    border-radius: 0;
+}
+
+.btn.btn-dark:active {
+    background-color: black;
+    border-radius: 0;
+}
+
+.catalog-title {
+    position: relative;
+    padding-left: 65px;
+    color: #9A6437;
+}
+
+.catalog-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 55px;
+    top: 50%;
+    margin-top: -1px;
+    height: 2px;
+    background-color: #9A6437;
+}
+
+.card-item {
+    background: #F7F7F7;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 0;
+    min-height: 260px;
+    cursor: pointer;
+}
+
+.badge {
+    display: block;
+    margin: -20px 16px 0;
+    border-radius: 0;
+}
+
+.card-price s {
+    color: #737373;
+}
+
+footer {
+    background-color: #D9D9D9;
+}
+
+.footer-title {
+    color: #1B1A1A;
+}
+
+.footer-text {
+    color: #5E5E5E;
+    max-width: 350px;
+}
+
+.email {
+    background-color: transparent;
+    border: 0.8px solid #5A5A5A;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+.email:focus-visible {
+    outline: none;
+}
+
+.footer-btn {
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 0.8px solid #5A5A5A;
+    border-radius: 4px;
+    color: #1B1A1A;
+}
+
+.btn {
+    border: 0;
+}
